@@ -38,5 +38,4 @@ $ cd algorithm-quiz
 ```
 
 ## Contributors
-
-* Cheolho Jeon woung2770@gmail.com
+* Cheolho Jeon [(woung2770@gmail.com)](woung2770@gmail.com)

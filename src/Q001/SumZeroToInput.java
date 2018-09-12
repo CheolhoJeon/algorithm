@@ -1,6 +1,12 @@
 package Q001;
 
-public interface SumZeroToInput {
+public abstract class SumZeroToInput {
 
-  public int calculate(int input);
+  String method;
+
+  public abstract int calculate(int input);
+
+  public String getMethod() {
+    return this.method;
+  }
 }

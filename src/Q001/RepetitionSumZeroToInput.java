@@ -1,6 +1,10 @@
 package Q001;
 
-public class RepetitionSumZeroToInput implements SumZeroToInput {
+public class RepetitionSumZeroToInput extends SumZeroToInput {
+
+  public RepetitionSumZeroToInput() {
+    this.method = "Repetition";
+  }
 
   public int calculate(int input) {
     int result = 0;
@@ -11,5 +15,4 @@ public class RepetitionSumZeroToInput implements SumZeroToInput {
 
     return result;
   }
-
 }

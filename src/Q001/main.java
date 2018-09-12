@@ -1,9 +1,6 @@
 package Q0001;
 
-import Q001.RecursionSumZeroToInput;
-import Q001.RepetitionSumZeroToInput;
-import Q001.SumZeroToInput;
-import Q001.Timer;
+import Q001.*;
 
 import java.util.Scanner;
 
@@ -18,6 +15,7 @@ public class main {
 
     execute(input, new RecursionSumZeroToInput());
     execute(input, new RepetitionSumZeroToInput());
+    execute(input, new SeriesSumZeroToInput());
   }
 
   private static void execute(int input, SumZeroToInput sumZeroToInput) {

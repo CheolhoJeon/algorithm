@@ -39,6 +39,18 @@ N개의 정수로 이루어진 집합이 있을때, 이 집합의 공집합이 �
 <img src=https://user-images.githubusercontent.com/42791260/46407323-8902c400-c749-11e8-8c1d-5160063b989d.png>
 </details>
 
+<details>
+<summary>Q003. 가운데 글자 가져오기</summary>
+<h3>문제</h3>
+단어 s의 가운데 글자를 반환하는 함수, solution을 만들어 보세요. 단어의 길이가 짝수라면 가운데 두글자를 반환하면 됩니다.
+
+<h3>제한사항</h3>
+s는 길이가 1 이상, 100이하인 스트링입니다.
+
+<h3>입출력 예</h3>
+<img src=https://user-images.githubusercontent.com/42791260/49803807-37536700-fd94-11e8-9b53-8399cc75e1d9.png width="20%">
+</details>
+
 ## Building
 Clone a copy of the repository:
 ```bash

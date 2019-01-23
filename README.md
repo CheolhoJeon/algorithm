@@ -139,6 +139,21 @@ n은 500,000,000이하의 자연수 입니다.<br/>
 
 </details>
 
+<details>
+<summary>Q008. 소수찾기</summary>
+<h3>문제 설명</h3>
+1부터 입력받은 숫자 n 사이에 있는 소수의 개수를 반환하는 함수, solution을 만들어 보세요.<br/>
+<br/>
+소수는 1과 자기 자신으로만 나누어지는 수를 의미합니다.<br/>
+(1은 소수가 아닙니다.)<br/>
+<h3>제한사항</h3>
+n은 2이상 1000000이하의 자연수입니다.<br/>
+
+<h3>입출력 예</h3>
+<img src=https://user-images.githubusercontent.com/42791260/51602608-c71b3200-1f4a-11e9-8cd0-9ac7fee5cc3c.png width="10%">
+
+</details>
+
 ## Building
 Clone a copy of the repository:
 ```bash

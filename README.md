@@ -154,6 +154,22 @@ n은 2이상 1000000이하의 자연수입니다.<br/>
 
 </details>
 
+</details>
+
+<details>
+<summary>Q009. 수박수박수박수박수박수?</summary>
+<h3>문제 설명</h3>
+길이가 n이고, 수박수박수박수....와 같은 패턴을 유지하는 문자열을 리턴하는 함수, solution을 완성하세요.<br/>
+예를들어 n이 4이면 수박수박을 리턴하고 3이라면 수박수를 리턴하면 됩니다.<br/>
+<br/>
+<h3>제한사항</h3>
+n은 길이 10,000이하인 자연수입니다.<br/>
+
+<h3>입출력 예</h3>
+<img src=https://user-images.githubusercontent.com/42791260/51607988-9098e380-1f59-11e9-82fc-48203e313b66.png width="10%">
+
+</details>
+
 ## Building
 Clone a copy of the repository:
 ```bash

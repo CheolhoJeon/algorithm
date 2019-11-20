@@ -203,6 +203,22 @@ n은 길이 10,000이하인 자연수입니다.<br/>
 <img src=https://user-images.githubusercontent.com/42791260/69258425-e7b22800-0bff-11ea-978b-9200d706b430.png width="20%">
 
 </details>
+<details>
+<summary>Q012. 자릿수 더하기</summary>
+<h3>문제 설명</h3>
+자연수 N이 주어지면, N의 각 자릿수의 합을 구해서 return 하는 solution 함수를 만들어 주세요.
+예를들어 N = 123이면 1 + 2 + 3 = 6을 return 하면 됩니다.
+<br/>
+<h3>제한사항</h3>
+
+- N의 범위 : 100,000,000 이하의 자연수
+
+<br/>
+<h3>입출력 예</h3>
+
+<img src=https://user-images.githubusercontent.com/42791260/69262068-20ed9680-0c06-11ea-98e2-95581af31eab.png width="20%">
+
+</details>
 
 ## Building
 Clone a copy of the repository:

@@ -1,5 +1,5 @@
 # Algorithm Quiz
-[![npm](https://img.shields.io/badge/version-2018.50-brightgreen.svg)]()
+[![npm](https://img.shields.io/badge/version-2010.47-brightgreen.svg)]()
 
 ## What is the project
 이 프로젝트는 Cheolho Jeon가 제작한 Algorithm Quiz 저장소입니다.

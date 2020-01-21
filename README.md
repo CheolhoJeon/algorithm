@@ -240,7 +240,7 @@ commands의 모든 원소에 대해 앞서 설명한 연산을 적용했을 때 
 <br/>
 <h3>입출력 예</h3>
 
-<img src="" width="20%">
+<img src="https://user-images.githubusercontent.com/42791260/72779139-60fce400-3c5e-11ea-8045-d71b8a624f71.png" width="20%">
 
 
 <h3>입출력 예 설명</h3>

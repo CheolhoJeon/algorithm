@@ -15,18 +15,15 @@ class Sheet(
   }
 }
 
-class Student(
-  val studentNo: Int,
-  val pattern: List<Int>,
-) {
-  fun takeTest(sheet: Sheet): Sheet {
-    sheet.studentNo = studentNo
+class Student(val studentNo: Int, val pattern: List<Int>)
 
-    repeat(sheet.totalQuestion) { questionNo ->
-      sheet.solve(questionNo, answer = pattern[questionNo % pattern.size])
-    }
-    return sheet
+fun Student.takeTest(sheet: Sheet): Sheet {
+  sheet.studentNo = studentNo
+
+  repeat(sheet.totalQuestion) { questionNo ->
+    sheet.solve(questionNo, answer = pattern[questionNo % pattern.size])
   }
+  return sheet
 }
 
 fun solution(answers: IntArray): IntArray {

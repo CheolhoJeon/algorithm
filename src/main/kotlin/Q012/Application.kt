@@ -2,7 +2,7 @@ package Q012
 
 import atomictest.eq
 
-fun solution(n: Int): Int = n.toString().toCharArray().sumOf { it - '0' }
+fun solution(n: Int) = n.toString().toCharArray().sumOf { it - '0' }
 
 fun main() {
   solution(5) eq 5

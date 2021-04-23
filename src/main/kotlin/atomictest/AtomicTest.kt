@@ -42,6 +42,14 @@ infix fun <T> T.eq(rval: T) {
 }
 
 /**
+ * Verifies this IntArray is equal to `rval`.
+ * Written by Cheolho
+ */
+infix fun IntArray.eq(rval: IntArray) {
+  this.toList() eq rval.toList()
+}
+
+/**
  * Verifies this object is != `rval`.
  */
 infix fun <T> T.neq(rval: T) {

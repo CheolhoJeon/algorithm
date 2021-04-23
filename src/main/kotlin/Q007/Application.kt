@@ -1,6 +1,7 @@
 package Q007
 
 import atomictest.eq
+import kotlin.math.max
 
 class Sheet(
   val answers: List<Int>,
@@ -32,14 +33,11 @@ fun solution(answers: IntArray): IntArray {
     Student(2, listOf(2, 1, 2, 3, 2, 4, 2, 5)),
     Student(3, listOf(3, 3, 1, 1, 2, 2, 4, 4, 5, 5)),
   )
-  val sheets = mutableListOf<Sheet>()
-  students.forEach { sheets += it.takeTest(Sheet(answers = answers.toList())) }
 
+  val sheets = students.map { it.takeTest(Sheet(answers.toList())) }
   val maxScore = sheets.maxOf { it.score }
-  val bestStudentNumbers = mutableListOf<Int>()
-  sheets.forEach { if (it.score == maxScore) bestStudentNumbers += it.studentNo }
 
-  return bestStudentNumbers.toIntArray()
+  return sheets.filter { it.score == maxScore }.map { it.studentNo }.toIntArray()
 }
 
 fun main() {
